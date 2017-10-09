@@ -38,6 +38,8 @@ try{
     dataPath: path.resolve(__dirname + '/data/tweets.json'),
     tagsStopWords: stopWordsFr.split('\n'),
     prefix: 'Doc excerpt ',
+    locale: 'fr',
+    suffix: '#peritext_doc', // tweet body suffix
     fontUrl: 'https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i',
     makeLink: function(block) {
       return `http://www.mysite.com/sections/${block.sectionId}?block=${block.blocks[0].key}`;

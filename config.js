@@ -1,5 +1,4 @@
 module.exports = {
-  tweetSuffix: " #PhDBot #notes #citations",
   cronFreq: "00 30 08 * * 1-6",
   contextualizers: {
     bib: require('peritext-contextualizer-bib'),
