@@ -47,7 +47,7 @@
     "peritext-contextualizer-vegalite": "0.0.7",
     "peritext-contextualizer-video": "0.0.8",
     "peritext-contextualizer-webpage": "0.0.8",
-    "peritext-generator-twitter": "0.0.5",
+    "peritext-generator-twitter": "0.0.6",
     "peritext-typography": "git+https://github.com/peritext/peritext-typography.git",
     "post-image-to-twitter": "^1.0.0",
     "progress": "^2.0.0",
